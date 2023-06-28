@@ -28,18 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            BtnConfirm = new Button();
             SuspendLayout();
+            // 
+            // BtnConfirm
+            // 
+            BtnConfirm.Location = new Point(369, 294);
+            BtnConfirm.Name = "BtnConfirm";
+            BtnConfirm.Size = new Size(94, 29);
+            BtnConfirm.TabIndex = 0;
+            BtnConfirm.Text = "Confirm";
+            BtnConfirm.UseVisualStyleBackColor = true;
+            BtnConfirm.Click += BtnConfirm_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(889, 450);
+            Controls.Add(BtnConfirm);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button BtnConfirm;
     }
 }

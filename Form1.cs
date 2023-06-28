@@ -6,5 +6,10 @@ namespace Fiskeristyrelsen
         {
             InitializeComponent();
         }
+
+        private void BtnConfirm_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
